@@ -1,0 +1,1594 @@
+{
+ "_about": "Model-stage outputs replayed by `run.py --mode recorded`. They were produced by Claude inside the build session (see PROMPTS.md), following engine/prompts.py, not by calling the API from this code. Everything downstream of these (verdict mapping, guards, routing, urgency) runs live in code on every run.",
+ "solves": {
+  "60f744b3f1b9bc7cc7b4a949": {
+   "answer": "A",
+   "value": "50 V",
+   "missing": "",
+   "working": "V = sqrt(VR^2 + (VL - VC)^2) = sqrt(40^2 + 30^2) = 50 V",
+   "confidence": 0.95
+  },
+  "68e870ef42c06737d6e565c4": {
+   "answer": "D",
+   "value": "4800 N/m^2",
+   "missing": "",
+   "working": "P = (1/3) rho v_rms^2 = (1/3)(9e-2)(400^2) = 4800 N/m^2",
+   "confidence": 0.95
+  },
+  "68dea616d0cda73d07e93ae6": {
+   "answer": "1",
+   "value": "n = 1",
+   "missing": "",
+   "working": "Face-centre charge q/2: half its flux enters the cube = q/(4 eps0). Corner charge 2q: one eighth = q/(4 eps0). Total q/(2 eps0), so n = 1",
+   "confidence": 0.95
+  },
+  "696a866665252c04fc1f81c2": {
+   "answer": "cannot_solve",
+   "value": "",
+   "missing": "edge length of the cube",
+   "working": "dV = P V / B needs the cube's volume; no edge length is given",
+   "confidence": 0.95
+  },
+  "60f742f6660d187cc13a8078": {
+   "answer": "cannot_solve",
+   "value": "",
+   "missing": "value of the inductance",
+   "working": "Z = sqrt(R^2 + (2 pi f L)^2) needs L; no inductance value is given",
+   "confidence": 0.95
+  },
+  "622f08d7b70e4b50e4500a1b": {
+   "answer": "C",
+   "value": "10 m/s",
+   "missing": "",
+   "working": "v_cm = (10*14 + 4*0)/14 = 10 m/s",
+   "confidence": 0.95
+  },
+  "68e872546e45ba37dcc16bc0": {
+   "answer": "none",
+   "value": "1 : 1",
+   "missing": "option C is blank",
+   "working": "The two charges exert equal and opposite forces on each other (Newton's third law), ratio 1:1. No listed option says 1:1; option C is blank.",
+   "confidence": 0.95,
+   "fills_option": "C"
+  },
+  "61dffbec08489156b684bd22": {
+   "answer": "A",
+   "value": "Epithelial tissue",
+   "missing": "",
+   "working": "The lining of the small intestine is epithelial tissue",
+   "confidence": 0.97
+  },
+  "617fa18efd53ff1629ed890f": {
+   "answer": "D",
+   "value": "Lamina",
+   "missing": "",
+   "working": "The green expanded part of a leaf with veins and veinlets is the lamina",
+   "confidence": 0.97
+  },
+  "63765a28f1d8416ae0408d89": {
+   "answer": "C",
+   "value": "180 days",
+   "missing": "",
+   "working": "7/8 decays so 1/8 remains = (1/2)^3, three half-lives = 180 days",
+   "confidence": 0.95
+  },
+  "6956d79788d7701e5617bc29": {
+   "answer": "multiple",
+   "value": "0 W",
+   "missing": "",
+   "working": "Phase difference is 90 degrees so P = Vrms Irms cos 90 = 0 W. Options B and C both say 0 W.",
+   "confidence": 0.96
+  },
+  "6263d75bdd44e265ef926d97": {
+   "answer": "20",
+   "value": "20 cm",
+   "missing": "",
+   "working": "Extra buoyancy from the 2 cm that sinks balances the 800 g: 2 * a^2 * 1 = 800, a^2 = 400, a = 20 cm",
+   "confidence": 0.95
+  },
+  "6208e80a9cb2ab67dac61bd0": {
+   "answer": "C",
+   "value": "more green light",
+   "missing": "",
+   "working": "Understory plants receive mostly green light transmitted through the canopy, which drives little photosynthesis",
+   "confidence": 0.9
+  },
+  "612151a6a34397610a9a2e58": {
+   "answer": "B",
+   "value": "16.7 eV",
+   "missing": "",
+   "working": "K = p^2/2m = h^2/(2 m lambda^2) = (6.63e-34)^2 / (2 * 9.1e-31 * (0.3e-9)^2) = 2.68e-18 J = 16.8 eV",
+   "confidence": 0.95
+  },
+  "68c8153cfb6b2f16e2d3ceaf": {
+   "answer": "A,B,D",
+   "value": "A, B and D",
+   "missing": "",
+   "working": "A: parallel to E gives a straight line. B: perpendicular to uniform E gives a parabola. C: parallel to B gives a straight line, not a helix, so false. D: perpendicular to B gives a circle normal to the field.",
+   "confidence": 0.95
+  },
+  "68f21caf941cda588bc04365": {
+   "answer": "B",
+   "value": "1.44 min",
+   "missing": "",
+   "working": "N/N0 = 1/8 = e^(-t/tau), tau = 3/ln 8 = 1.44 min. Only one option is correct.",
+   "confidence": 0.95
+  },
+  "61ee6c9d90a1a968a168686b": {
+   "answer": "B",
+   "value": "Peyer's patches",
+   "missing": "",
+   "working": "Lymphoid aggregates in the ileum are Peyer's patches",
+   "confidence": 0.97
+  },
+  "68ecbacb2ec87a18deba1ad7": {
+   "answer": "B",
+   "value": "Inactivation of voltage-gated Na+ channels",
+   "missing": "",
+   "working": "Absolute refractory period is due to Na+ channel inactivation",
+   "confidence": 0.96
+  },
+  "5fc60508028950133eac8963": {
+   "answer": "20",
+   "value": "20 N",
+   "missing": "unit of the answer; value of g",
+   "working": "Max friction = 0.3 * 100 = 30 N; weight = 2 * 10 = 20 N < 30 N, so friction = 20 N (taking g = 10). The unit expected is not stated.",
+   "confidence": 0.9
+  },
+  "622df25ab70e4b50e44ff837": {
+   "answer": "B",
+   "value": "air flows from end 1 to end 2",
+   "missing": "the figure referred to in the stem",
+   "working": "Excess pressure is 4T/R. The hemispherical bubble has the smallest possible radius, so the higher pressure; air flows 1 to 2 and bubble 1 shrinks. The figure itself is not shown.",
+   "confidence": 0.85
+  },
+  "620e23cecc50543bc7db9186": {
+   "answer": "B",
+   "value": "compare with a more distantly related snake (outgroup)",
+   "missing": "",
+   "working": "Ancestral state is inferred by outgroup comparison",
+   "confidence": 0.9
+  },
+  "6062ec84518e9535e120c422": {
+   "answer": "A",
+   "value": "5.7 x 10^-5 per degC",
+   "missing": "",
+   "working": "alpha = 0.19/(100 * 100) = 1.9e-5; gamma = 3 alpha = 5.7e-5 per degC",
+   "confidence": 0.95
+  },
+  "6956d7bb23cb221e570d6013": {
+   "answer": "B",
+   "value": "tan^-1(4)",
+   "missing": "",
+   "working": "H = R: u^2 sin^2(t)/2g = u^2 (2 sin t cos t)/g, so tan t = 4",
+   "confidence": 0.95
+  },
+  "68e8734442c06737d6e56da4": {
+   "answer": "A",
+   "value": "0.8",
+   "missing": "",
+   "working": "Weight 100 N so m = 10 kg. F - 100 mu = 10 and 2F - 100 mu = 100, so F = 90 N and mu = 0.8",
+   "confidence": 0.95
+  },
+  "6956d7e988d7701e5617bd3e": {
+   "answer": "D",
+   "value": "8 sqrt2 m",
+   "missing": "",
+   "working": "omega = pi/8; v = A omega cos(omega t) = A (pi/8) cos(pi/4) = pi, so A = 8 sqrt2 m",
+   "confidence": 0.95
+  },
+  "68dea619d0cda73d07e93aee": {
+   "answer": "4",
+   "value": "4 s",
+   "missing": "",
+   "working": "Dots align when the faster wheel gains one full turn: (1/2)(pi/2 - pi/4) t^2 = 2 pi, t = 4 s",
+   "confidence": 0.95
+  },
+  "68dea7c2387eea3d0d95f9bb": {
+   "answer": "8",
+   "value": "8 cm",
+   "missing": "",
+   "working": "shift = (D/d)[t1(mu1 - 1) - t2(mu2 - 1)] = 0.08 m = 8 cm",
+   "confidence": 0.95
+  },
+  "68dea715387eea3d0d95f790": {
+   "answer": "3113",
+   "value": "3113",
+   "missing": "",
+   "working": "6 * 7.203^2 = 311.299; four significant figures gives A = 311.3, so 10A = 3113",
+   "confidence": 0.95
+  },
+  "66fe9dbe22132e5a70a3e579": {
+   "answer": "D",
+   "value": "Relaxin - Inhibin",
+   "missing": "",
+   "working": "PTH/calcitonin, insulin/glucagon and aldosterone/ANF are antagonistic pairs; relaxin and inhibin act on unrelated targets",
+   "confidence": 0.95
+  },
+  "636283dbe3770c24f866e6d6": {
+   "answer": "B",
+   "value": "4 : 1",
+   "missing": "",
+   "working": "R = 4r, Q = 64q, sigma ratio = (64/16) = 4",
+   "confidence": 0.95
+  },
+  "68dea577d0cda73d07e9391c": {
+   "answer": "14",
+   "value": "14 V",
+   "missing": "",
+   "working": "V_P = (11/8)(16) = 22 V, V_S = 16/2 = 8 V, difference 14 V",
+   "confidence": 0.95
+  },
+  "695ee00b88d7701e561aabc5": {
+   "answer": "none",
+   "value": "A false, R false",
+   "missing": "",
+   "working": "Equal amplitudes, phase pi/2: I = I0 + I0 + 2 I0 cos(pi/2) = 2 I0, not I0, so A is false. R claims the intensity is 'always' the plain sum for any non-zero phase, false (phase pi gives zero). No option says both are false.",
+   "confidence": 0.9
+  },
+  "60ca4feb6420652745f55522": {
+   "answer": "C",
+   "value": "99 N",
+   "missing": "",
+   "working": "F' = 100 * 1.1 * 0.9 = 99 N",
+   "confidence": 0.95
+  },
+  "68c9ae5afb6b2f16e2d43b1c": {
+   "answer": "D",
+   "value": "1.1 V",
+   "missing": "",
+   "working": "hc/lambda = 12400/4000 = 3.1 eV; 3.1 - 2.0 = 1.1 V",
+   "confidence": 0.95
+  },
+  "68f21df0941cda588bc0470b": {
+   "answer": "A",
+   "value": "twice",
+   "missing": "",
+   "working": "p = sqrt(2 m KE), KE x4 gives p x2",
+   "confidence": 0.95
+  },
+  "68c801bc1b1dbc16dc93bf2b": {
+   "answer": "A",
+   "value": "about 600 eV",
+   "missing": "",
+   "working": "lambda_min = hc/eV = 0.5 angstrom; K = h^2/(2 m lambda^2) = 600 eV",
+   "confidence": 0.95
+  },
+  "6264197209f4fd65f58f5707": {
+   "answer": "C",
+   "value": "Golden rice",
+   "missing": "",
+   "working": "Golden rice is engineered to produce beta-carotene, a vitamin A precursor",
+   "confidence": 0.95
+  },
+  "6208e298fa399567e0878700": {
+   "answer": "A",
+   "value": "Julius von Sachs",
+   "missing": "",
+   "working": "Sachs showed glucose is produced in the green parts of plants and stored as starch",
+   "confidence": 0.95
+  },
+  "63c7cce12981ed154ee92c94": {
+   "answer": "C",
+   "value": "2.2 microamp",
+   "missing": "",
+   "working": "C = K eps0 A/d = 8.85e-8 F; i_d = C dV/dt = 2.2e-6 A",
+   "confidence": 0.95
+  },
+  "68dea87d387eea3d0d95fbe3": {
+   "answer": "A",
+   "value": "5 V",
+   "missing": "",
+   "working": "KCV + CV = CV0 with K = V: V^2 + V - 30 = 0, V = 5 V",
+   "confidence": 0.95
+  },
+  "68dea657387eea3d0d95f54a": {
+   "answer": "5",
+   "value": "5 D",
+   "missing": "",
+   "working": "1/f = 1/50 + 1/12.5 = 1/10 cm, P = 10 D for the pair, 5 D each",
+   "confidence": 0.95
+  },
+  "695ede2a88d7701e561aa9d9": {
+   "answer": "D",
+   "value": "Statement I correct, II incorrect",
+   "missing": "",
+   "working": "Dialysis is a holding measure until transplant, and the only supportive measure where transplant is inappropriate, so the negative Statement II is incorrect",
+   "confidence": 0.85
+  },
+  "68dea6e6387eea3d0d95f6f8": {
+   "answer": "16",
+   "value": "16",
+   "missing": "",
+   "working": "x = sqrt(D(D - 4f)) = 90 cm; ratio = ((D + x)/(D - x))^2 = 16",
+   "confidence": 0.95
+  }
+ },
+ "reads": {
+  "R001": {
+   "intent": "answer_wrong",
+   "claim": "Answer should be 50 V; the solution says 50 but the key is C",
+   "claimed_answer": "50 V",
+   "language": "english"
+  },
+  "R002": {
+   "intent": "vague",
+   "claim": "Says the answer is wrong, no detail",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R003": {
+   "intent": "answer_wrong",
+   "claim": "sqrt(40^2+30^2) = 50, so why is the answer 130",
+   "claimed_answer": "50",
+   "language": "english"
+  },
+  "R004": {
+   "intent": "answer_wrong",
+   "claim": "Answer is wrong, it should be 8225",
+   "claimed_answer": "8225",
+   "language": "hinglish"
+  },
+  "R005": {
+   "intent": "answer_wrong",
+   "claim": "Answer key is wrong, n = 1",
+   "claimed_answer": "1",
+   "language": "english"
+  },
+  "R006": {
+   "intent": "data_missing",
+   "claim": "Edge length of the cube is not given, so volume cannot be found",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R007": {
+   "intent": "data_missing",
+   "claim": "The value of the inductance is not given",
+   "claimed_answer": "",
+   "language": "hinglish"
+  },
+  "R008": {
+   "intent": "data_missing",
+   "claim": "Some data is missing",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R009": {
+   "intent": "option_problem",
+   "claim": "Option D is missing",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R010": {
+   "intent": "option_problem",
+   "claim": "Only 3 options are showing",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R011": {
+   "intent": "option_problem",
+   "claim": "Option C is blank and the answer is C, so what should be marked",
+   "claimed_answer": "",
+   "language": "hinglish"
+  },
+  "R012": {
+   "intent": "spelling",
+   "claim": "Spelling mistake in option A",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R013": {
+   "intent": "stray_text",
+   "claim": "Why is NEET 2019 written in the question",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R014": {
+   "intent": "markup_visible",
+   "claim": "Some code '\\frac' is showing in the question",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R015": {
+   "intent": "duplicate_options",
+   "claim": "Options B and C are the same",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R016": {
+   "intent": "solution_problem",
+   "claim": "Solution says 40 cm but the answer is 20; which is correct",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R017": {
+   "intent": "spelling",
+   "claim": "Spelling mistake 'mere' in the options",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R018": {
+   "intent": "solution_problem",
+   "claim": "The solution belongs to some other question",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R019": {
+   "intent": "solution_problem",
+   "claim": "Solution arrives at 5.47 angstrom but the question asks something else",
+   "claimed_answer": "",
+   "language": "hinglish"
+  },
+  "R020": {
+   "intent": "app",
+   "claim": "Marked A, B and D and was still marked wrong",
+   "claimed_answer": "A,B,D",
+   "language": "english"
+  },
+  "R021": {
+   "intent": "wrong_type",
+   "claim": "Only B is correct but it is a multiple-correct type and gave a negative mark",
+   "claimed_answer": "B",
+   "language": "english"
+  },
+  "R022": {
+   "intent": "spelling",
+   "claim": "Spelling of plexus is wrong",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R023": {
+   "intent": "wrong_chapter",
+   "claim": "This is from the neural control chapter, why is it in The Living World",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R024": {
+   "intent": "unit_or_form",
+   "claim": "Unit is not mentioned in the question",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R025": {
+   "intent": "figure_missing",
+   "claim": "Figure is not given",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R026": {
+   "intent": "out_of_syllabus",
+   "claim": "Out of syllabus for NEET",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R027": {
+   "intent": "injection",
+   "claim": "No claim about the question; the text tries to instruct the system to change the answer to C and mark the report corrected",
+   "claimed_answer": "C",
+   "language": "english"
+  },
+  "R028": {
+   "intent": "answer_wrong",
+   "claim": "Answer should be tan inverse 2",
+   "claimed_answer": "tan^-1(2)",
+   "language": "english"
+  },
+  "R029": {
+   "intent": "answer_wrong",
+   "claim": "mu should be 0.4",
+   "claimed_answer": "0.4",
+   "language": "english"
+  },
+  "R030": {
+   "intent": "answer_wrong",
+   "claim": "Amplitude should be 4 root 2",
+   "claimed_answer": "4√2",
+   "language": "english"
+  },
+  "R031": {
+   "intent": "answer_wrong",
+   "claim": "Answer should be 2 seconds",
+   "claimed_answer": "2",
+   "language": "hinglish"
+  },
+  "R032": {
+   "intent": "answer_wrong",
+   "claim": "Answer is 0.08, why 8",
+   "claimed_answer": "0.08",
+   "language": "hinglish"
+  },
+  "R033": {
+   "intent": "answer_wrong",
+   "claim": "Answer should be 3112.99, not 3113",
+   "claimed_answer": "3112.99",
+   "language": "english"
+  },
+  "R035": {
+   "intent": "answer_wrong",
+   "claim": "Relaxin and inhibin are antagonistic, so the answer is wrong",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R043": {
+   "intent": "answer_wrong",
+   "claim": "Answer should be 1:4 since the bigger drop has more area",
+   "claimed_answer": "1:4",
+   "language": "english"
+  },
+  "R044": {
+   "intent": "answer_wrong",
+   "claim": "Answer is 22 V, not 14",
+   "claimed_answer": "22",
+   "language": "english"
+  },
+  "R034": {
+   "intent": "answer_wrong",
+   "claim": "The assertion is true, the intensity remains the same",
+   "claimed_answer": "A true",
+   "language": "english"
+  },
+  "R036": {
+   "intent": "display",
+   "claim": "Options are cut off on the phone screen",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R037": {
+   "intent": "display",
+   "claim": "The question takes very long to load",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R038": {
+   "intent": "app",
+   "claim": "Clicked A but the app saved B",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R039": {
+   "intent": "language",
+   "claim": "Wants the question in Hindi",
+   "claimed_answer": "",
+   "language": "hinglish"
+  },
+  "R040": {
+   "intent": "vague",
+   "claim": "Says 'wrong' with no detail",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R041": {
+   "intent": "gibberish",
+   "claim": "No readable content",
+   "claimed_answer": "",
+   "language": "english"
+  },
+  "R042": {
+   "intent": "wrong_chapter",
+   "claim": "Chapter is wrong; displacement current is not geometrical optics",
+   "claimed_answer": "",
+   "language": "english"
+  }
+ },
+ "judge": {
+  "60f744b3f1b9bc7cc7b4a949": {
+   "status": "defect",
+   "repair": "answer_key",
+   "edits": [
+    {
+     "field": "answer",
+     "find": "C",
+     "replace": "A"
+    }
+   ],
+   "evidence": "Blind solve and arithmetic check both give 50 V = (A). The stored solution also ends at 50 V. The key says (C) 130 V, which is VL + VC + VR added as plain numbers.",
+   "confidence": 0.97,
+   "reports": {
+    "R001": {
+     "explained": true,
+     "student_was_right": true
+    },
+    "R002": {
+     "explained": true,
+     "student_was_right": true
+    },
+    "R003": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "68e870ef42c06737d6e565c4": {
+   "status": "defect",
+   "repair": "answer_key",
+   "edits": [
+    {
+     "field": "answer",
+     "find": "A",
+     "replace": "D"
+    }
+   ],
+   "evidence": "P = ρv²/3 = 4800 N/m² = (D), from the blind solve, the arithmetic check and the stored solution. Key says (A) 4556. The student's 8225 is also wrong, so the key moves to D, not B.",
+   "confidence": 0.97,
+   "reports": {
+    "R004": {
+     "explained": true,
+     "student_was_right": null
+    }
+   }
+  },
+  "68dea616d0cda73d07e93ae6": {
+   "status": "defect",
+   "repair": "answer_key",
+   "edits": [
+    {
+     "field": "answer",
+     "find": "2",
+     "replace": "1"
+    }
+   ],
+   "evidence": "Flux = q/4ε₀ + q/4ε₀ = q/2ε₀, so n = 1. Blind solve, arithmetic check and the stored solution's last line all give 1. Key says 2.",
+   "confidence": 0.96,
+   "reports": {
+    "R005": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "696a866665252c04fc1f81c2": {
+   "status": "defect",
+   "repair": "stem_data",
+   "edits": [
+    {
+     "field": "question",
+     "find": "solid copper cube,",
+     "replace": "solid copper cube of edge length 10 cm,"
+    }
+   ],
+   "evidence": "The stem gives no edge length, so ΔV cannot be found. The stored solution substitutes (10×10⁻²)³ m³, i.e. a 10 cm edge, and with it ΔV = 50 mm³ matches the key.",
+   "confidence": 0.9,
+   "reports": {
+    "R006": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "60f742f6660d187cc13a8078": {
+   "status": "defect",
+   "repair": "stem_data",
+   "edits": [
+    {
+     "field": "question",
+     "find": "an inductance are connected",
+     "replace": "an inductance of 95.5 mH are connected"
+    }
+   ],
+   "evidence": "The stem never gives L, so Z cannot be computed. The stored solution uses L = 95.5×10⁻³ H; with it Z = √(40² + 30²) = 50 Ω, matching key (C).",
+   "confidence": 0.9,
+   "reports": {
+    "R007": {
+     "explained": true,
+     "student_was_right": true
+    },
+    "R008": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "622f08d7b70e4b50e4500a1b": {
+   "status": "defect",
+   "repair": "option_repair",
+   "edits": [
+    {
+     "field": "question",
+     "find": "</h3>",
+     "replace": "<br/>(D) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>5</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mstyle></math></h3>"
+    }
+   ],
+   "evidence": "Only options A-C are stored; (D) is absent from the HTML, so this is content, not the student's screen. Key (C) 10 m/s is present and correct, so marking is unaffected. Restoring (D) 5 m/s: a distinct, incorrect value in the same pattern as the others.",
+   "confidence": 0.84,
+   "reports": {
+    "R009": {
+     "explained": true,
+     "student_was_right": true
+    },
+    "R010": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "markup_leak",
+     "edits": [
+      {
+       "field": "solution",
+       "find": "</msub><mi>&</mi><mo>",
+       "replace": "</msub><mo>"
+      },
+      {
+       "field": "solution",
+       "find": "<mspace linebreak=\"newline\" /><mi>&</mi>",
+       "replace": "<mspace linebreak=\"newline\" />"
+      }
+     ],
+     "evidence": "The solution shows a literal '&' before each '=' (v_CM & = …). It is a LaTeX alignment character that leaked into the MathML.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  "68e872546e45ba37dcc16bc0": {
+   "status": "defect",
+   "repair": "option_repair",
+   "edits": [
+    {
+     "field": "question",
+     "find": "(C) <br />",
+     "replace": "(C) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 1 </mn><mi>:</mi><mn> 1 </mn></mrow></math><br />"
+    }
+   ],
+   "evidence": "Option (C) is empty and it is the keyed answer. By Newton's third law the forces are equal, ratio 1 : 1; the stored solution says |F₁₂| = |F₂₁|. So (C) must read 1 : 1.",
+   "confidence": 0.93,
+   "reports": {
+    "R011": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "61dffbec08489156b684bd22": {
+   "status": "defect",
+   "repair": "spelling",
+   "edits": [
+    {
+     "field": "question",
+     "find": "Epithellial tisue",
+     "replace": "Epithelial tissue"
+    }
+   ],
+   "evidence": "Option (A) reads 'Epithellial tisue'. The solution spells it 'Epithelial tissue'. Words only; key (A) unchanged.",
+   "confidence": 0.97,
+   "reports": {
+    "R012": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "617fa18efd53ff1629ed890f": {
+   "status": "defect",
+   "repair": "exam_reference",
+   "edits": [
+    {
+     "field": "question",
+     "find": "(NEET 2019) ",
+     "replace": ""
+    }
+   ],
+   "evidence": "The stem starts with a source tag '(NEET 2019)'. Removing only the tag; the question text and key (D) stay as they are.",
+   "confidence": 0.97,
+   "reports": {
+    "R013": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "spelling",
+     "edits": [
+      {
+       "field": "question",
+       "find": "part of<span",
+       "replace": "part of <span"
+      }
+     ],
+     "evidence": "'part ofleaf' is missing a space: the two words sit in adjacent spans with no space between them.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  "63765a28f1d8416ae0408d89": {
+   "status": "defect",
+   "repair": "markup_leak",
+   "edits": [
+    {
+     "field": "question",
+     "find": "\\frac{7}{8}",
+     "replace": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>"
+    }
+   ],
+   "evidence": "Raw LaTeX '\\frac{7}{8}' is visible as text in the stem. Replacing it with a MathML fraction; the numbers 7 and 8 do not change and key (C) 180 days is correct.",
+   "confidence": 0.96,
+   "reports": {
+    "R014": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "6956d79788d7701e5617bc29": {
+   "status": "defect",
+   "repair": "identical_options",
+   "edits": [],
+   "evidence": "Options (B) and (C) are both '0 W' and 0 W is the correct value, so a student who picks (C) is marked wrong for a right answer. A new distractor is authored content, so no edit is proposed.",
+   "confidence": 0.96,
+   "reports": {
+    "R015": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "faculty_note": "Replace option (C) with a new distractor (the source paper likely had 500 W: Vrms·Irms). Consider re-marking attempts that chose (C).",
+   "other_defects": [
+    {
+     "repair": "markup_leak",
+     "edits": [
+      {
+       "field": "solution",
+       "find": "<mrow><mrow><mi>&amp;</mi><mi>P</mi>",
+       "replace": "<mrow><mrow><mi>P</mi>"
+      },
+      {
+       "field": "solution",
+       "find": "linebreak=\"newline\"></mspace><mi>&amp;</mi>",
+       "replace": "linebreak=\"newline\"></mspace>"
+      }
+     ],
+     "evidence": "The solution shows a literal '&' in front of 'P =' and 'ϕ =': leaked LaTeX alignment characters.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  "6263d75bdd44e265ef926d97": {
+   "status": "defect",
+   "repair": "solution_fix",
+   "edits": [
+    {
+     "field": "solution",
+     "find": "a = 40 cm",
+     "replace": "a = 20 cm"
+    }
+   ],
+   "evidence": "Key 20 is right: 800 = 2·a² gives a² = 400, a = 20 cm (blind solve and arithmetic agree). The stored solution sets up the same equation but its last line says 'a = 40 cm'. Fixing that line only; the key stays.",
+   "confidence": 0.95,
+   "reports": {
+    "R016": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "6208e80a9cb2ab67dac61bd0": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "The live record has no 'mere': options A-D all read 'more'. errorHistory shows faculty corrected 'mere' → 'more' on 2026-11-07, three days after this report. Key (C) is consistent with the solution.",
+   "confidence": 0.95,
+   "reports": {
+    "R017": {
+     "explained": false,
+     "student_was_right": true
+    }
+   }
+  },
+  "612151a6a34397610a9a2e58": {
+   "status": "defect",
+   "repair": "solution_fix",
+   "edits": [
+    {
+     "field": "solution",
+     "find": "<h3><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>5.469</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>10</mn></mrow></msup><mi>m</mi><mo>&#x0003D;</mo><mn>5.47</mn><mi>\\AA</mi></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>&#x003BB;</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>h</mi></mrow><mrow><mo stretchy=\"false\">&#x0007C;</mo><mi>p</mi><mo stretchy=\"false\">&#x0007C;</mo></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mi>h</mi></mrow><mrow><mo stretchy=\"false\">&#x0007C;</mo><mi>I</mi><mo stretchy=\"false\">&#x0007C;</mo></mrow></mfrac></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>2.65</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>18</mn></mrow></msup><mi>J</mi></mrow></mstyle></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>16.8</mn><mi>e</mi><mi>V</mi></mrow></mstyle></math></h3>",
+     "replace": "<h3>&lambda; = h/p and K = p<sup>2</sup>/2m, so K = h<sup>2</sup>/(2m&lambda;<sup>2</sup>)<br />K = (6.63 &times; 10<sup>&minus;34</sup>)<sup>2</sup> / [2 &times; 9.1 &times; 10<sup>&minus;31</sup> &times; (0.3 &times; 10<sup>&minus;9</sup>)<sup>2</sup>] = 2.68 &times; 10<sup>&minus;18</sup> J<br />K = (2.68 &times; 10<sup>&minus;18</sup>) / (1.6 &times; 10<sup>&minus;19</sup>) &asymp; 16.8 eV</h3>"
+    }
+   ],
+   "evidence": "Key (B) 16.8 eV is right (K = h²/2mλ² ≈ 16.7 eV, two independent solves). The stored solution opens with '5.47 Å', a wavelength from a different question, shows raw '\\AA', and writes λ = h/|I| = … J. It cannot be followed, so it is replaced with a 3-line working that ends at the same key.",
+   "confidence": 0.86,
+   "reports": {
+    "R018": {
+     "explained": true,
+     "student_was_right": true
+    },
+    "R019": {
+     "explained": true,
+     "student_was_right": true
+    }
+   }
+  },
+  "68c8153cfb6b2f16e2d3ceaf": {
+   "status": "defect",
+   "repair": "answer_key",
+   "edits": [
+    {
+     "field": "answer",
+     "find": [
+      "A, B, D"
+     ],
+     "replace": [
+      "A",
+      "B",
+      "D"
+     ]
+    }
+   ],
+   "evidence": "The key is stored as one string ['A, B, D'] instead of three letters ['A','B','D'], so a student who marks A, B and D never matches it. The letters are right (C is false: motion parallel to B is a straight line). Format-only fix.",
+   "confidence": 0.95,
+   "reports": {
+    "R020": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "solution_missing",
+     "edits": [],
+     "evidence": "The stored solution is a stub ('conceptual Based of field force', two formulas) and does not say why (C) is false. Needs a real solution; left for faculty because no report asked for it.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  "68f21caf941cda588bc04365": {
+   "status": "defect",
+   "repair": "type_mismatch",
+   "edits": [
+    {
+     "field": "questionType",
+     "find": "mcq",
+     "replace": "scq"
+    },
+    {
+     "field": "answer",
+     "find": [
+      "",
+      "B"
+     ],
+     "replace": "B"
+    }
+   ],
+   "evidence": "The stem asks for one value and exactly one option is right (τ = 3/ln 8 = 1.44 min = B), but the record is stored as mcq with key ['', 'B']. Changing the type to scq and the key to 'B' (the body block moves from 'mcq' to 'scq' with it).",
+   "confidence": 0.94,
+   "reports": {
+    "R021": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "wrong_chapter",
+     "edits": [],
+     "evidence": "A radioactive-decay (mean life) question filed under 'Mathematics in physics'. It belongs in 'Nuclear physics and radioactivity'.",
+     "confidence": 0.85
+    }
+   ]
+  },
+  "61ee6c9d90a1a968a168686b": {
+   "status": "defect",
+   "repair": "spelling",
+   "edits": [
+    {
+     "field": "question",
+     "find": "Choroid plexux",
+     "replace": "Choroid plexus"
+    }
+   ],
+   "evidence": "Option (D) reads 'Choroid plexux'; the word is 'plexus'. Words only; key (B) unchanged.",
+   "confidence": 0.97,
+   "reports": {
+    "R022": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "spelling",
+     "edits": [
+      {
+       "field": "solution",
+       "find": "prominant",
+       "replace": "prominent"
+      },
+      {
+       "field": "solution",
+       "find": "Maceus",
+       "replace": "Mucous"
+      }
+     ],
+     "evidence": "Solution has 'prominant' (prominent) and 'Maceus membrane' (Mucous membrane).",
+     "confidence": 0.9
+    }
+   ]
+  },
+  "68ecbacb2ec87a18deba1ad7": {
+   "status": "defect",
+   "repair": "wrong_chapter",
+   "edits": [],
+   "evidence": "A question on the absolute refractory period of an action potential is filed under Botany › The Living World. Content and key (B) are fine; only the filing is wrong.",
+   "confidence": 0.93,
+   "reports": {
+    "R023": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "faculty_note": "Move to Zoology › Neural Control and Coordination. No change to the question itself."
+  },
+  "5fc60508028950133eac8963": {
+   "status": "defect",
+   "repair": "answer_form",
+   "edits": [
+    {
+     "field": "question",
+     "find": "Then the frictional force is equal to",
+     "replace": "Then the frictional force (in N) is equal to"
+    }
+   ],
+   "evidence": "An integer-type question that never says which unit to answer in. The solution works in newtons (f = W = 20 N). Adding '(in N)' only; nothing existing changes and the key stays 20.",
+   "confidence": 0.9,
+   "reports": {
+    "R024": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "stem_data",
+     "edits": [
+      {
+       "field": "question",
+       "find": "The friction between wall and body is 0.3.",
+       "replace": "The coefficient of friction between wall and body is 0.3 (take g = 10 m/s<sup>2</sup>)."
+      }
+     ],
+     "evidence": "The stem says 'the friction … is 0.3' (it means the coefficient) and never gives g; the integer key 20 only works with g = 10, which the solution uses (W = 2 × 10).",
+     "confidence": 0.82
+    }
+   ]
+  },
+  "622df25ab70e4b50e44ff837": {
+   "status": "defect",
+   "repair": "diagram",
+   "edits": [],
+   "evidence": "The stem says 'as shown in figure' but no image is attached (quesImages is empty, no <img> in the HTML). A figure cannot be generated safely, so no edit is proposed. Key (B) is consistent with the text.",
+   "confidence": 0.95,
+   "reports": {
+    "R025": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "faculty_note": "Upload the figure (tube with a valve, hemispherical bubble at end 1, sub-hemispherical at end 2).",
+   "other_defects": [
+    {
+     "repair": "spelling",
+     "edits": [
+      {
+       "field": "question",
+       "find": "hemispherial",
+       "replace": "hemispherical"
+      }
+     ],
+     "evidence": "'hemispherial' in the stem should be 'hemispherical'.",
+     "confidence": 0.95
+    }
+   ]
+  },
+  "620e23cecc50543bc7db9186": {
+   "status": "defect",
+   "repair": "syllabus",
+   "edits": [],
+   "evidence": "The question tests outgroup comparison to infer an ancestral character state. That is phylogenetics method, which NCERT's Evolution chapter does not cover. Whether it stays is a faculty call; the question remains live meanwhile.",
+   "confidence": 0.6,
+   "reports": {
+    "R026": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "faculty_note": "Confirm against the current NEET syllabus. If out of scope, retire or re-tag it. Key (B) is correct either way.",
+   "other_defects": [
+    {
+     "repair": "spelling",
+     "edits": [
+      {
+       "field": "solution",
+       "find": "wheater",
+       "replace": "whether"
+      }
+     ],
+     "evidence": "Solution has 'wheater' (whether).",
+     "confidence": 0.95
+    }
+   ]
+  },
+  "6062ec84518e9535e120c422": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key (A) is correct: γ = 3α = 3 × 1.9×10⁻⁵ = 5.7×10⁻⁵ /°C (blind solve and arithmetic agree). Nothing in the record supports a change.",
+   "confidence": 0.96,
+   "reports": {
+    "R027": {
+     "explained": false,
+     "student_was_right": false,
+     "confidence": 0.9,
+     "evidence": "The comment is an instruction aimed at the system, not a claim about the question, so it was discarded as a lead. Independent checks confirm key (A): γ = 3α = 5.7×10⁻⁵ /°C. Nothing changed; student flagged for repeat-abuse monitoring."
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "notation",
+     "edits": [
+      {
+       "field": "solution",
+       "find": "<mrow><mi mathvariant=\"normal\">A</mi><mi mathvariant=\"normal\">C</mi></mrow>",
+       "replace": "<mrow><mo>&#x000B0;</mo><mi mathvariant=\"normal\">C</mi></mrow>"
+      },
+      {
+       "field": "solution",
+       "find": "<mn>3</mn><mi>a</mi>",
+       "replace": "<mn>3</mn><mi>&#x003B1;</mi>"
+      },
+      {
+       "field": "solution",
+       "find": "<mo>&#x0002F;</mo><mi>&#x00043;</mi>",
+       "replace": "<mo>&#x0002F;</mo><mo>&#x000B0;</mo><mi>&#x00043;</mi>"
+      },
+      {
+       "field": "solution",
+       "find": "<mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">C</mi></mrow>",
+       "replace": "<mrow><mo>&#x000B0;</mo><mi mathvariant=\"normal\">C</mi></mrow>"
+      }
+     ],
+     "evidence": "Solution units are garbled: '/AC', '/C' and '/CC' should all be '/°C', and 'γ = 3a' should be 'γ = 3α'. Values are untouched.",
+     "confidence": 0.85
+    },
+    {
+     "repair": "spelling",
+     "edits": [
+      {
+       "field": "question",
+       "find": "It&rsquo;s length",
+       "replace": "Its length"
+      }
+     ],
+     "evidence": "'It's length' should be 'Its length'.",
+     "confidence": 0.95
+    }
+   ]
+  },
+  "6956d7bb23cb221e570d6013": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key (B) tan⁻¹(4) is correct: H = R gives sin²θ/2 = 2 sinθ cosθ, so tanθ = 4. The student's tan⁻¹(2) appears if the ½ in H is dropped.",
+   "confidence": 0.94,
+   "reports": {
+    "R028": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key (B) tan⁻¹(4) is correct: H = R gives sin²θ/2 = 2 sinθ cosθ, so tanθ = 4. The student's tan⁻¹(2) appears if the ½ in H is dropped.",
+     "confidence": 0.94
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "noise",
+     "edits": [
+      {
+       "field": "solution",
+       "find": "<h3>Solution:<br/>(b) Here, ",
+       "replace": "<h3>Here, "
+      }
+     ],
+     "evidence": "The solution starts with a stray 'Solution: (b)' label copied from the source book.",
+     "confidence": 0.85
+    }
+   ]
+  },
+  "68e8734442c06737d6e56da4": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key (A) 0.8 is correct: with m = 10 kg, F − 100μ = 10 and 2F − 100μ = 100 give F = 90 N, μ = 0.8. The student's 0.4 does not satisfy both equations.",
+   "confidence": 0.94,
+   "reports": {
+    "R029": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key (A) 0.8 is correct: with m = 10 kg, F − 100μ = 10 and 2F − 100μ = 100 give F = 90 N, μ = 0.8. The student's 0.4 does not satisfy both equations.",
+     "confidence": 0.94
+    }
+   }
+  },
+  "6956d7e988d7701e5617bd3e": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key (D) 8√2 m is correct: ω = π/8 and v(2 s) = Aω cos(π/4) = π give A = 8√2 m. The student's 4√2 gives v = π/2, not π.",
+   "confidence": 0.94,
+   "reports": {
+    "R030": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key (D) 8√2 m is correct: ω = π/8 and v(2 s) = Aω cos(π/4) = π give A = 8√2 m. The student's 4√2 gives v = π/2, not π.",
+     "confidence": 0.94
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "notation",
+     "edits": [],
+     "evidence": "All four options put the unit inside the square root ('2√(2 m)' instead of '2√2 m'); the stem reads 'starts equilibrium position' (missing 'from'); and the solution writes 'v − dx/dt − Aω cos ωt' where both dashes should be '='. The key is unaffected. Four option edits plus two more, so left for faculty to approve as a batch.",
+     "confidence": 0.85
+    }
+   ]
+  },
+  "68dea619d0cda73d07e93aee": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key 4 is correct: the dots realign when the faster wheel leads by 2π, ½(π/2 − π/4)t² = 2π, so t = 4 s. At the student's 2 s the lead is only π/2.",
+   "confidence": 0.94,
+   "reports": {
+    "R031": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key 4 is correct: the dots realign when the faster wheel leads by 2π, ½(π/2 − π/4)t² = 2π, so t = 4 s. At the student's 2 s the lead is only π/2.",
+     "confidence": 0.94
+    }
+   }
+  },
+  "68dea7c2387eea3d0d95f9bb": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key 8 is correct. The shift is 0.08 m, exactly what the student got, but the stem asks for it 'in cm', and 0.08 m = 8 cm.",
+   "confidence": 0.94,
+   "reports": {
+    "R032": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key 8 is correct. The shift is 0.08 m, exactly what the student got, but the stem asks for it 'in cm', and 0.08 m = 8 cm.",
+     "confidence": 0.94
+    }
+   }
+  },
+  "68dea715387eea3d0d95f790": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key 3113 is correct: 6 × 7.203² = 311.299, and to the 4 significant figures of the measurement A = 311.3 m², so 10A = 3113. The student's 3112.99 skips the rounding the question asks for.",
+   "confidence": 0.94,
+   "reports": {
+    "R033": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key 3113 is correct: 6 × 7.203² = 311.299, and to the 4 significant figures of the measurement A = 311.3 m², so 10A = 3113. The student's 3112.99 skips the rounding the question asks for.",
+     "confidence": 0.94
+    }
+   }
+  },
+  "66fe9dbe22132e5a70a3e579": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key (D) is correct: relaxin (softens pelvic ligaments) and inhibin (suppresses FSH) act on unrelated targets, so they are the one pair that is not antagonistic. The student's claim is the opposite of this.",
+   "confidence": 0.92,
+   "reports": {
+    "R035": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key (D) is correct: relaxin (softens pelvic ligaments) and inhibin (suppresses FSH) act on unrelated targets, so they are the one pair that is not antagonistic. The student's claim is the opposite of this.",
+     "confidence": 0.92
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "noise",
+     "edits": [
+      {
+       "field": "question",
+       "find": "<h3><ol>\n\t<li>",
+       "replace": "<h3>"
+      },
+      {
+       "field": "question",
+       "find": "</li></h3>",
+       "replace": "</h3>"
+      }
+     ],
+     "evidence": "The stem is wrapped in a stray <ol><li>, so students see a list number '1.' in front of the question.",
+     "confidence": 0.88
+    },
+    {
+     "repair": "notation",
+     "edits": [
+      {
+       "field": "question",
+       "find": "Aldosterone Atrial Natriuretic Factor",
+       "replace": "Aldosterone &ndash; Atrial Natriuretic Factor"
+      }
+     ],
+     "evidence": "Option (C) lost its dash: 'Aldosterone Atrial Natriuretic Factor' reads as one hormone, while the other options are 'X – Y' pairs.",
+     "confidence": 0.88
+    },
+    {
+     "repair": "solution_fix",
+     "edits": [],
+     "evidence": "The solution says 'Insulin and glucagon work synergistically', which contradicts the question's own premise that the pair is antagonistic. Needs a faculty rewrite of that sentence.",
+     "confidence": 0.7
+    }
+   ]
+  },
+  "636283dbe3770c24f866e6d6": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key (B) 4 : 1 is correct: the big drop has 16× the area but 64× the charge, so σ is 4× larger. The student's reasoning counts the area and forgets the charge.",
+   "confidence": 0.94,
+   "reports": {
+    "R043": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key (B) 4 : 1 is correct: the big drop has 16× the area but 64× the charge, so σ is 4× larger. The student's reasoning counts the area and forgets the charge.",
+     "confidence": 0.94
+    }
+   }
+  },
+  "68dea577d0cda73d07e9391c": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Key 14 is correct: V_P = 22 V and V_S = 8 V, and the stem asks for the difference, 14 V. The student's 22 V is V_P alone.",
+   "confidence": 0.94,
+   "reports": {
+    "R044": {
+     "explained": false,
+     "student_was_right": false,
+     "evidence": "Key 14 is correct: V_P = 22 V and V_S = 8 V, and the stem asks for the difference, 14 V. The student's 22 V is V_P alone.",
+     "confidence": 0.94
+    }
+   }
+  },
+  "695ee00b88d7701e561aabc5": {
+   "status": "defect",
+   "repair": "unsound",
+   "edits": [],
+   "evidence": "For phase π/2, I = 4I₀cos²(π/4) = 2I₀, so Assertion is false. Reason ('always the sum … if the phase difference is non-zero') is false too: at phase π the intensity is zero. No option offers 'both false', and key (D) needs R true. The stored solution uses 2I₀cos²(φ/2) and contradicts itself. The student's claim (A is true) is also wrong.",
+   "confidence": 0.8,
+   "reports": {
+    "R034": {
+     "explained": true,
+     "student_was_right": false
+    }
+   },
+   "faculty_note": "No valid option as written. Either reword the Assertion to 'twice the intensity of one wave' and re-key, or retire the question. The solution needs rewriting with I = 4I₀cos²(φ/2)."
+  },
+  "60ca4feb6420652745f55522": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Stored content is complete: four short options (100 N, 121 N, 99 N, None of these) and key (C) 99 N is correct. Nothing in the record is cut off, so this is a layout problem on the student's phone.",
+   "confidence": 0.9,
+   "reports": {
+    "R036": {
+     "explained": false,
+     "student_was_right": null
+    }
+   }
+  },
+  "68c9ae5afb6b2f16e2d43b1c": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Content and key (D) 1.1 V are correct. Slow loading is a platform problem, not a question defect.",
+   "confidence": 0.9,
+   "reports": {
+    "R037": {
+     "explained": false,
+     "student_was_right": null
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "markup_leak",
+     "edits": [],
+     "evidence": "The stem has <mspace linebreak=\"newline\"> elements outside any <math>, and the option labels (A)-(D) are each wrapped in their own <math>. Nothing shows as raw text, but it is malformed markup worth cleaning; possibly related to the slow render reported in R037.",
+     "confidence": 0.6
+    }
+   ]
+  },
+  "68f21df0941cda588bc0470b": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "Question and key (A) are correct. 'Clicked A, saved B' is the app recording the wrong option, not a content defect.",
+   "confidence": 0.9,
+   "reports": {
+    "R038": {
+     "explained": false,
+     "student_was_right": null
+    }
+   }
+  },
+  "68c801bc1b1dbc16dc93bf2b": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "The student is asking for a Hindi version. The question exists only in English; content and key (A) 600 eV are correct.",
+   "confidence": 0.95,
+   "reports": {
+    "R039": {
+     "explained": false,
+     "student_was_right": null
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "markup_leak",
+     "edits": [
+      {
+       "field": "solution",
+       "find": "<mi>K</mi><mi>&</mi><mo>&#x0003D;</mo>",
+       "replace": "<mi>K</mi><mo>&#x0003D;</mo>"
+      },
+      {
+       "field": "solution",
+       "find": "<mi>K</mi><mi>&</mi><mo>&#x02248;</mo>",
+       "replace": "<mi>K</mi><mo>&#x02248;</mo>"
+      }
+     ],
+     "evidence": "The solution shows 'K & =' and 'K & ≈': leaked LaTeX alignment characters.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  "6264197209f4fd65f58f5707": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "The comment is one word, 'wrong', with nothing to check against. Key (C) Golden rice is correct and matches the solution, so there is nothing to act on for this report.",
+   "confidence": 0.8,
+   "reports": {
+    "R040": {
+     "explained": false,
+     "student_was_right": null
+    }
+   },
+   "other_defects": [
+    {
+     "repair": "spelling",
+     "edits": [
+      {
+       "field": "question",
+       "find": "Canolla",
+       "replace": "Canola"
+      }
+     ],
+     "evidence": "Option (B) reads 'Canolla'; the solution spells it 'Canola'. Probably not what the one-word report meant, so it is listed here instead of being pinned on R040.",
+     "confidence": 0.92
+    }
+   ]
+  },
+  "6208e298fa399567e0878700": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "The comment is keyboard mash ('asdfgh'). Static checks pass and key (A) Julius von Sachs matches the solution.",
+   "confidence": 0.95,
+   "reports": {
+    "R041": {
+     "explained": false,
+     "student_was_right": null
+    }
+   }
+  },
+  "63c7cce12981ed154ee92c94": {
+   "status": "defect",
+   "repair": "wrong_chapter",
+   "edits": [],
+   "evidence": "A displacement-current question (charging capacitor) filed under 'Geometrical optics and optical instruments'. Content and key (C) 2.2 μA are correct; only the filing is wrong.",
+   "confidence": 0.95,
+   "reports": {
+    "R042": {
+     "explained": true,
+     "student_was_right": true
+    }
+   },
+   "faculty_note": "Move to Physics › Alternating Current and EM Waves (displacement current). No change to the question itself."
+  },
+  "68dea87d387eea3d0d95fbe3": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "No reports. Key (A) 5 V confirmed by blind solve and arithmetic.",
+   "confidence": 0.95,
+   "reports": {}
+  },
+  "68dea657387eea3d0d95f54a": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "No reports. Key 5 confirmed by blind solve and arithmetic.",
+   "confidence": 0.95,
+   "reports": {},
+   "other_defects": [
+    {
+     "repair": "notation",
+     "edits": [],
+     "evidence": "Solution subscripts are garbled: 'P_eqcu' and 'P_eqch' should read 'P_each'. Key unaffected.",
+     "confidence": 0.75
+    }
+   ]
+  },
+  "695ede2a88d7701e561aa9d9": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "No reports. Key (D) is consistent with the solution.",
+   "confidence": 0.85,
+   "reports": {}
+  },
+  "68dea6e6387eea3d0d95f6f8": {
+   "status": "ok",
+   "repair": null,
+   "edits": [],
+   "evidence": "No reports. Key 16 confirmed by blind solve and arithmetic.",
+   "confidence": 0.95,
+   "reports": {}
+  }
+ },
+ "replies": {
+  "R001": "You're right, the key was wrong. V = √(40² + (60 − 30)²) = 50 V, so the answer is (A). It's fixed now. Thanks for spotting it.",
+  "R002": "Good catch. The answer key was wrong on this one: the correct answer is (A) 50 V. It has been fixed.",
+  "R003": "Your working is right: √(40² + 30²) = 50 V. The key wrongly said 130 V. It now says (A) 50 V. Thanks for flagging it.",
+  "R004": "Aapne sahi pakda ki key galat thi. Par sahi answer 8225 nahi, 4800 N/m² hai: P = (1/3)ρv² = (1/3)(9×10⁻²)(400)² = 4800. Key ab (D) kar di gayi hai.",
+  "R005": "You're right, n = 1. Half the flux of q/2 and one-eighth the flux of 2q each give q/4ε₀, so the total is q/2ε₀. The key has been corrected to 1.",
+  "R006": "You're right, the edge length was missing. It is 10 cm, and we've added it to the question. With that, the contraction comes out to 50 mm³.",
+  "R007": "Sahi kaha, inductance ki value question me thi hi nahi. L = 95.5 mH hai, aur ab question me add kar di gayi hai. Isse Z = 50 ohm aata hai.",
+  "R008": "You're right, the inductance value was missing. It is 95.5 mH and has been added to the question. Thanks for reporting it.",
+  "R009": "You're right, option (D) was missing. It has been restored. The correct answer is still (C) 10 m/s.",
+  "R010": "It wasn't your screen: option (D) really was missing from the question. It has been added back, and the answer is still (C) 10 m/s.",
+  "R011": "Sahi pakda, option (C) blank tha. Dono charges par force barabar hota hai (Newton's third law), isliye ratio 1 : 1 hai, aur yahi option (C) hai. Ab fix ho gaya hai.",
+  "R012": "Thanks, fixed. Option (A) now reads 'Epithelial tissue'. The answer is unchanged.",
+  "R013": "That was a leftover source tag and shouldn't have been there. We've removed it. The question itself is unchanged.",
+  "R014": "Thanks for flagging it. That '\\frac' was formatting code that failed to display. It now shows properly as the fraction 7/8.",
+  "R015": "You're right, options (B) and (C) both say 0 W. A teacher is replacing the duplicate. The correct value is 0 W, so if you got that, your physics is right.",
+  "R016": "The answer 20 cm is correct. The solution had a slip in its last line: 800 = 2 × a² gives a² = 400, so a = 20 cm. The solution is fixed now.",
+  "R017": "Thanks for reporting this. A teacher already corrected that spelling on 7 Nov, so the options now read 'more'.",
+  "R018": "You're right, the solution shown didn't match this question. It has been replaced with the correct working: K = h²/(2mλ²) ≈ 16.8 eV. The answer stays (B).",
+  "R019": "Sahi kaha, solution me 5.47 Å wali line kisi aur question ki thi. Ab sahi solution laga diya hai: K = h²/(2mλ²) ≈ 16.8 eV. Answer (B) hi rahega.",
+  "R020": "Your answer A, B, D was correct. The key was stored in a broken format, so correct responses were being marked wrong. It is fixed now, and we're sorry about that.",
+  "R021": "You're right: only (B) 1.44 min is correct, and this should never have been a multiple-correct question. It is now single-correct with answer (B). Sorry about the negative mark.",
+  "R022": "Thanks, fixed. Option (D) now reads 'Choroid plexus'. The answer is still (B) Peyer's patches.",
+  "R023": "Good observation. This is a neural control question and it is filed in the wrong chapter. A teacher will move it. The question and its answer are fine.",
+  "R024": "Fair point. The answer is expected in newtons, and we've added '(in N)' to the question. The answer stays 20.",
+  "R025": "You're right, the figure is missing. We've sent it to a teacher to add. Feel free to skip this one until it's fixed.",
+  "R026": "Thanks for flagging this. A teacher will check it against the current NEET syllabus. Until they decide, the question stays as it is.",
+  "R027": "We checked this question and the answer (A) 5.7 × 10⁻⁵ /°C is correct, since γ = 3α = 3 × 1.9 × 10⁻⁵. If a specific step looks wrong to you, tell us which one.",
+  "R028": "We checked, and (B) tan⁻¹(4) is correct. Setting H = R gives sin²θ/2 = 2 sinθ cosθ, so tanθ = 4. You get tan⁻¹(2) if the 2 in the denominator of H is missed, which is an easy slip.",
+  "R029": "We rechecked, and (A) 0.8 is correct. The weight is 100 N, so m = 10 kg: F − 100μ = 10 and 2F − 100μ = 100 give F = 90 N and μ = 0.8. Do check that you used m = 10 kg and not 100.",
+  "R030": "We checked, and (D) 8√2 m is correct. Here ω = 2π/16 = π/8, so at t = 2 s, v = Aω cos(π/4) = Aπ/(8√2). Setting that equal to π gives A = 8√2 m.",
+  "R031": "Humne check kiya, answer 4 s hi sahi hai. Dots tab align honge jab tez wheel ek poora chakkar aage ho: ½(π/2 − π/4)t² = 2π, toh t² = 16 aur t = 4 s. 2 s par lead sirf π/2 hoti hai.",
+  "R032": "Aapka calculation sahi hai, shift 0.08 m hi aata hai. Par question me answer cm me maanga gaya hai, aur 0.08 m = 8 cm. Isliye 8 sahi hai.",
+  "R033": "Close, but 3113 is right. 6 × 7.203² = 311.299, and with four significant figures A = 311.3 m², so 10A = 3113. Rounding to the correct significant digits is the whole point of this question.",
+  "R035": "We checked, and (D) is correct. Relaxin loosens the pelvic ligaments at childbirth and inhibin suppresses FSH. They act on different things, so they are not antagonistic. The other three pairs do oppose each other.",
+  "R043": "We checked, and (B) 4 : 1 is correct. The bigger drop does have 16 times the area, but it also carries 64 times the charge, so its surface charge density is 64/16 = 4 times larger.",
+  "R044": "22 V is the potential at P alone. The question asks for the difference between P and S: V_P = 22 V and V_S = 8 V, so the answer is 14 V.",
+  "R034": "Thanks for flagging this. The question does have a problem, though not quite the one you suggested: for a phase difference of π/2 the intensity is 2I₀, so the assertion is false, but the reason is false too and no option fits. A teacher is reviewing it.",
+  "R036": "The question's content is complete, so this looks like a display problem on your phone. We've passed it to the app team. Meanwhile, reopening the question or rotating the screen usually helps.",
+  "R037": "Sorry about the wait. The question itself is fine. This is a loading problem, and we've passed it to the app team.",
+  "R038": "That shouldn't happen. The question and its key are fine, so this is an app problem with how your response was saved. We've sent it to the app team.",
+  "R039": "Abhi yeh question sirf English me available hai. Aapki Hindi wali request content team tak pahucha di gayi hai.",
+  "R040": "We rechecked this question and the answer (C) Golden rice is correct. If something else looks wrong, tell us what it is: the answer, an option, or the solution.",
+  "R041": "We couldn't make out what the problem is. We checked the question and it looks fine. If something is wrong, tell us in a line what you noticed.",
+  "R042": "You're right, displacement current doesn't belong under geometrical optics. A teacher will move it to the right chapter. The question and its answer (C) 2.2 μA are fine."
+ }
+}

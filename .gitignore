@@ -1,0 +1,11 @@
+__pycache__/
+engine/.cache/
+*.pyc
+.DS_Store
+
+# private draft of the submission email, not part of the repo
+SUBMISSION_DRAFT.md
+# local live-mode outputs
+results.live.json
+unreported_defects.live.json
+*.recorded.json

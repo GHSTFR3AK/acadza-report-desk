@@ -1,0 +1,326 @@
+[
+ {
+  "questionId": "61ee6c9d90a1a968a168686b",
+  "subject": "Zoology",
+  "chapter": "Digestion and Absorption",
+  "repair": "spelling",
+  "edits": [
+   {
+    "field": "solution",
+    "find": "prominant",
+    "replace": "prominent"
+   },
+   {
+    "field": "solution",
+    "find": "Maceus",
+    "replace": "Mucous"
+   }
+  ],
+  "evidence": "Solution has 'prominant' (prominent) and 'Maceus membrane' (Mucous membrane).",
+  "confidence": 0.9,
+  "guards_pass": true
+ },
+ {
+  "questionId": "68c9ae5afb6b2f16e2d43b1c",
+  "subject": "Physics",
+  "chapter": "Photoelectric effect and matter waves",
+  "repair": "markup_leak",
+  "edits": [],
+  "evidence": "The stem has <mspace linebreak=\"newline\"> elements outside any <math>, and the option labels (A)-(D) are each wrapped in their own <math>. Nothing shows as raw text, but it is malformed markup worth cleaning; possibly related to the slow render reported in R037.",
+  "confidence": 0.6,
+  "guards_pass": false
+ },
+ {
+  "questionId": "66fe9dbe22132e5a70a3e579",
+  "subject": "Zoology",
+  "chapter": "Chemical Coordination and Integration",
+  "repair": "noise",
+  "edits": [
+   {
+    "field": "question",
+    "find": "<h3><ol>\n\t<li>",
+    "replace": "<h3>"
+   },
+   {
+    "field": "question",
+    "find": "</li></h3>",
+    "replace": "</h3>"
+   }
+  ],
+  "evidence": "The stem is wrapped in a stray <ol><li>, so students see a list number '1.' in front of the question.",
+  "confidence": 0.88,
+  "guards_pass": true
+ },
+ {
+  "questionId": "66fe9dbe22132e5a70a3e579",
+  "subject": "Zoology",
+  "chapter": "Chemical Coordination and Integration",
+  "repair": "notation",
+  "edits": [
+   {
+    "field": "question",
+    "find": "Aldosterone Atrial Natriuretic Factor",
+    "replace": "Aldosterone &ndash; Atrial Natriuretic Factor"
+   }
+  ],
+  "evidence": "Option (C) lost its dash: 'Aldosterone Atrial Natriuretic Factor' reads as one hormone, while the other options are 'X – Y' pairs.",
+  "confidence": 0.88,
+  "guards_pass": true
+ },
+ {
+  "questionId": "66fe9dbe22132e5a70a3e579",
+  "subject": "Zoology",
+  "chapter": "Chemical Coordination and Integration",
+  "repair": "solution_fix",
+  "edits": [],
+  "evidence": "The solution says 'Insulin and glucagon work synergistically', which contradicts the question's own premise that the pair is antagonistic. Needs a faculty rewrite of that sentence.",
+  "confidence": 0.7,
+  "guards_pass": false
+ },
+ {
+  "questionId": "620e23cecc50543bc7db9186",
+  "subject": "Zoology",
+  "chapter": "Evolution",
+  "repair": "spelling",
+  "edits": [
+   {
+    "field": "solution",
+    "find": "wheater",
+    "replace": "whether"
+   }
+  ],
+  "evidence": "Solution has 'wheater' (whether).",
+  "confidence": 0.95,
+  "guards_pass": true
+ },
+ {
+  "questionId": "68dea657387eea3d0d95f54a",
+  "subject": "Physics",
+  "chapter": "Geometrical optics and optical instruments",
+  "repair": "notation",
+  "edits": [],
+  "evidence": "Solution subscripts are garbled: 'P_eqcu' and 'P_eqch' should read 'P_each'. Key unaffected.",
+  "confidence": 0.75,
+  "guards_pass": false
+ },
+ {
+  "questionId": "6956d79788d7701e5617bc29",
+  "subject": "Physics",
+  "chapter": "AC Circuits",
+  "repair": "markup_leak",
+  "edits": [
+   {
+    "field": "solution",
+    "find": "<mrow><mrow><mi>&amp;</mi><mi>P</mi>",
+    "replace": "<mrow><mrow><mi>P</mi>"
+   },
+   {
+    "field": "solution",
+    "find": "linebreak=\"newline\"></mspace><mi>&amp;</mi>",
+    "replace": "linebreak=\"newline\"></mspace>"
+   }
+  ],
+  "evidence": "The solution shows a literal '&' in front of 'P =' and 'ϕ =': leaked LaTeX alignment characters.",
+  "confidence": 0.9,
+  "guards_pass": true
+ },
+ {
+  "questionId": "622df25ab70e4b50e44ff837",
+  "subject": "Physics",
+  "chapter": "Properties of matter and fluid mechanics",
+  "repair": "spelling",
+  "edits": [
+   {
+    "field": "question",
+    "find": "hemispherial",
+    "replace": "hemispherical"
+   }
+  ],
+  "evidence": "'hemispherial' in the stem should be 'hemispherical'.",
+  "confidence": 0.95,
+  "guards_pass": true
+ },
+ {
+  "questionId": "6264197209f4fd65f58f5707",
+  "subject": "Zoology",
+  "chapter": "Biotechnology and its Applications",
+  "repair": "spelling",
+  "edits": [
+   {
+    "field": "question",
+    "find": "Canolla",
+    "replace": "Canola"
+   }
+  ],
+  "evidence": "Option (B) reads 'Canolla'; the solution spells it 'Canola'. Probably not what the one-word report meant, so it is listed here instead of being pinned on R040.",
+  "confidence": 0.92,
+  "guards_pass": true
+ },
+ {
+  "questionId": "617fa18efd53ff1629ed890f",
+  "subject": "Botany",
+  "chapter": "Morphology of Flowering Plants",
+  "repair": "spelling",
+  "edits": [
+   {
+    "field": "question",
+    "find": "part of<span",
+    "replace": "part of <span"
+   }
+  ],
+  "evidence": "'part ofleaf' is missing a space: the two words sit in adjacent spans with no space between them.",
+  "confidence": 0.9,
+  "guards_pass": true
+ },
+ {
+  "questionId": "6062ec84518e9535e120c422",
+  "subject": "Physics",
+  "chapter": "Temperature and thermal properties of matter",
+  "repair": "notation",
+  "edits": [
+   {
+    "field": "solution",
+    "find": "<mrow><mi mathvariant=\"normal\">A</mi><mi mathvariant=\"normal\">C</mi></mrow>",
+    "replace": "<mrow><mo>&#x000B0;</mo><mi mathvariant=\"normal\">C</mi></mrow>"
+   },
+   {
+    "field": "solution",
+    "find": "<mn>3</mn><mi>a</mi>",
+    "replace": "<mn>3</mn><mi>&#x003B1;</mi>"
+   },
+   {
+    "field": "solution",
+    "find": "<mo>&#x0002F;</mo><mi>&#x00043;</mi>",
+    "replace": "<mo>&#x0002F;</mo><mo>&#x000B0;</mo><mi>&#x00043;</mi>"
+   },
+   {
+    "field": "solution",
+    "find": "<mrow><mi mathvariant=\"normal\">C</mi><mi mathvariant=\"normal\">C</mi></mrow>",
+    "replace": "<mrow><mo>&#x000B0;</mo><mi mathvariant=\"normal\">C</mi></mrow>"
+   }
+  ],
+  "evidence": "Solution units are garbled: '/AC', '/C' and '/CC' should all be '/°C', and 'γ = 3a' should be 'γ = 3α'. Values are untouched.",
+  "confidence": 0.85,
+  "guards_pass": true
+ },
+ {
+  "questionId": "6062ec84518e9535e120c422",
+  "subject": "Physics",
+  "chapter": "Temperature and thermal properties of matter",
+  "repair": "spelling",
+  "edits": [
+   {
+    "field": "question",
+    "find": "It&rsquo;s length",
+    "replace": "Its length"
+   }
+  ],
+  "evidence": "'It's length' should be 'Its length'.",
+  "confidence": 0.95,
+  "guards_pass": true
+ },
+ {
+  "questionId": "5fc60508028950133eac8963",
+  "subject": "Physics",
+  "chapter": "Newton's law of motion",
+  "repair": "stem_data",
+  "edits": [
+   {
+    "field": "question",
+    "find": "The friction between wall and body is 0.3.",
+    "replace": "The coefficient of friction between wall and body is 0.3 (take g = 10 m/s<sup>2</sup>)."
+   }
+  ],
+  "evidence": "The stem says 'the friction … is 0.3' (it means the coefficient) and never gives g; the integer key 20 only works with g = 10, which the solution uses (W = 2 × 10).",
+  "confidence": 0.82,
+  "guards_pass": true
+ },
+ {
+  "questionId": "68f21caf941cda588bc04365",
+  "subject": "Physics",
+  "chapter": "Mathematics in physics",
+  "repair": "wrong_chapter",
+  "edits": [],
+  "evidence": "A radioactive-decay (mean life) question filed under 'Mathematics in physics'. It belongs in 'Nuclear physics and radioactivity'.",
+  "confidence": 0.85,
+  "guards_pass": false
+ },
+ {
+  "questionId": "68c801bc1b1dbc16dc93bf2b",
+  "subject": "Physics",
+  "chapter": "Photoelectric effect and matter waves",
+  "repair": "markup_leak",
+  "edits": [
+   {
+    "field": "solution",
+    "find": "<mi>K</mi><mi>&</mi><mo>&#x0003D;</mo>",
+    "replace": "<mi>K</mi><mo>&#x0003D;</mo>"
+   },
+   {
+    "field": "solution",
+    "find": "<mi>K</mi><mi>&</mi><mo>&#x02248;</mo>",
+    "replace": "<mi>K</mi><mo>&#x02248;</mo>"
+   }
+  ],
+  "evidence": "The solution shows 'K & =' and 'K & ≈': leaked LaTeX alignment characters.",
+  "confidence": 0.9,
+  "guards_pass": true
+ },
+ {
+  "questionId": "622f08d7b70e4b50e4500a1b",
+  "subject": "Physics",
+  "chapter": "Centre of mass and momentum conservation (collision)",
+  "repair": "markup_leak",
+  "edits": [
+   {
+    "field": "solution",
+    "find": "</msub><mi>&</mi><mo>",
+    "replace": "</msub><mo>"
+   },
+   {
+    "field": "solution",
+    "find": "<mspace linebreak=\"newline\" /><mi>&</mi>",
+    "replace": "<mspace linebreak=\"newline\" />"
+   }
+  ],
+  "evidence": "The solution shows a literal '&' before each '=' (v_CM & = …). It is a LaTeX alignment character that leaked into the MathML.",
+  "confidence": 0.9,
+  "guards_pass": true
+ },
+ {
+  "questionId": "68c8153cfb6b2f16e2d3ceaf",
+  "subject": "Physics",
+  "chapter": "Electrostatics",
+  "repair": "solution_missing",
+  "edits": [],
+  "evidence": "The stored solution is a stub ('conceptual Based of field force', two formulas) and does not say why (C) is false. Needs a real solution; left for faculty because no report asked for it.",
+  "confidence": 0.8,
+  "guards_pass": false
+ },
+ {
+  "questionId": "6956d7e988d7701e5617bd3e",
+  "subject": "Physics",
+  "chapter": "Oscillations",
+  "repair": "notation",
+  "edits": [],
+  "evidence": "All four options put the unit inside the square root ('2√(2 m)' instead of '2√2 m'); the stem reads 'starts equilibrium position' (missing 'from'); and the solution writes 'v − dx/dt − Aω cos ωt' where both dashes should be '='. The key is unaffected. Four option edits plus two more, so left for faculty to approve as a batch.",
+  "confidence": 0.85,
+  "guards_pass": false
+ },
+ {
+  "questionId": "6956d7bb23cb221e570d6013",
+  "subject": "Physics",
+  "chapter": "Motion in a Plane",
+  "repair": "noise",
+  "edits": [
+   {
+    "field": "solution",
+    "find": "<h3>Solution:<br/>(b) Here, ",
+    "replace": "<h3>Here, "
+   }
+  ],
+  "evidence": "The solution starts with a stray 'Solution: (b)' label copied from the source book.",
+  "confidence": 0.85,
+  "guards_pass": true
+ }
+]

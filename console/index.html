@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Report Desk</title>
+<meta name="description" content="Acadza faculty console: review student error reports and the fixes the system proposed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="bar">
+  <div class="bar-title">
+    <h1>Report Desk <span class="bar-org">Acadza question fixes</span></h1>
+    <p id="bar-sub"></p>
+  </div>
+  <div class="bar-tools">
+    <label class="who">Reviewing as <input id="actor" type="text" autocomplete="name" spellcheck="false"></label>
+    <button class="ghost" id="open-help" type="button">Help</button>
+    <button class="ghost" id="open-audit" type="button">Audit log <span id="audit-count"></span></button>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs" aria-label="Filter the queue"></nav>
+
+<div class="desk">
+  <nav class="queue" aria-label="Review queue">
+    <div class="q-tools">
+      <input id="search" type="search" placeholder="Search questions, chapters, comments" aria-label="Search the queue" spellcheck="false">
+    </div>
+    <div id="guide"></div>
+    <div id="queue"></div>
+  </nav>
+  <main class="case" id="case" tabindex="-1"></main>
+</div>
+
+<aside class="drawer" id="audit" hidden aria-label="Audit log">
+  <div class="drawer-head">
+    <h2>Audit log</h2>
+    <div>
+      <button class="ghost" id="export-audit" type="button">Download JSON</button>
+      <button class="ghost" id="close-audit" type="button">Close</button>
+    </div>
+  </div>
+  <p class="drawer-note">Every decision made on this device, newest first: who, when, what the system proposed and what was finally applied. It is stored in this browser, so download it to keep a copy.</p>
+  <ol id="audit-list"></ol>
+</aside>
+
+<dialog id="help" aria-labelledby="help-title">
+  <h2 id="help-title">How to use the Report Desk</h2>
+  <ol class="help-steps">
+    <li><strong>Pick a question</strong> on the left. Each row is one question, however many students reported it.</li>
+    <li><strong>Read the case</strong> from top to bottom: what the system found, the exact change, and the question before and after.</li>
+    <li><strong>Decide</strong> with the buttons at the bottom. Each button says what will happen. Every decision is logged and can be undone.</li>
+  </ol>
+
+  <h3>What the groups mean</h3>
+  <ul class="help-legend">
+    <li><span class="dot dot-faculty_review"></span><strong>Needs your decision</strong>: the system is not allowed to make this change alone. Start here.</li>
+    <li><span class="dot dot-auto_apply"></span><strong>Fixed automatically</strong>: already live after passing every safety check. Spot-check it; undo if you disagree.</li>
+    <li><span class="dot dot-sweep"></span><strong>Found by the system</strong>: defects nobody reported. Nothing has been changed.</li>
+    <li><span class="dot dot-no_change"></span><strong>No problem found</strong>: the question is correct. Check the reply the student will get.</li>
+  </ul>
+
+  <h3>Reading a change</h3>
+  <p><del class="d-del">Red, struck through</del> is removed. <ins class="d-ins">Green, underlined</ins> is added.</p>
+
+  <h3>Why this order</h3>
+  <p>The queue answers one question: <strong>is a student losing marks on this right now?</strong> A wrong key or an unanswerable question comes before a missing value, then a wrong solution, then spelling. More reports push a question up; ties go to the oldest report.</p>
+
+  <h3>Keyboard</h3>
+  <p class="help-keys"><kbd>J</kbd> next <kbd>K</kbd> previous <kbd>A</kbd> approve <kbd>E</kbd> edit <kbd>R</kbd> reject <kbd>U</kbd> undo</p>
+  <button class="primary" type="button" id="close-help">Got it</button>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

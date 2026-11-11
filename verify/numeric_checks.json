@@ -1,0 +1,157 @@
+{
+ "60f744b3f1b9bc7cc7b4a949": {
+  "value": 50.0,
+  "answer": "A",
+  "note": "sqrt(VR^2 + (VL-VC)^2) = 50 V"
+ },
+ "68e870ef42c06737d6e565c4": {
+  "value": 4800.0,
+  "answer": "D",
+  "note": "P = rho v^2 / 3 = 4800 N/m^2"
+ },
+ "68dea616d0cda73d07e93ae6": {
+  "value": 1.0,
+  "answer": "1",
+  "note": "(q/4 + q/4)/eps0 = q/(2 eps0) so n = 1"
+ },
+ "696a866665252c04fc1f81c2": {
+  "value": 50.0,
+  "answer": "50",
+  "note": "dV = P V / B with a = 10 cm gives 50 mm^3"
+ },
+ "60f742f6660d187cc13a8078": {
+  "value": 50.0013,
+  "answer": "C",
+  "note": "Z = sqrt(40^2 + (2 pi 50 L)^2) = 50 ohm"
+ },
+ "622f08d7b70e4b50e4500a1b": {
+  "value": 10.0,
+  "answer": "C",
+  "note": "v_cm = 140/14 = 10 m/s"
+ },
+ "68e872546e45ba37dcc16bc0": {
+  "value": 1.0,
+  "answer": "C",
+  "note": "Newton's third law: equal magnitudes, ratio 1:1 (the blank option)"
+ },
+ "63765a28f1d8416ae0408d89": {
+  "value": 180.0,
+  "answer": "C",
+  "note": "3 half-lives = 180 days"
+ },
+ "6956d79788d7701e5617bc29": {
+  "value": 0.0,
+  "answer": "B",
+  "note": "P = Vrms Irms cos 90 = 0 W (options B and C both say 0 W)"
+ },
+ "6263d75bdd44e265ef926d97": {
+  "value": 20.0,
+  "answer": "20",
+  "note": "a^2 = 400 so a = 20 cm; the stored solution's last line says 40"
+ },
+ "612151a6a34397610a9a2e58": {
+  "value": 16.7146,
+  "answer": "B",
+  "note": "K = h^2/(2 m lambda^2) = 16.7 eV"
+ },
+ "68f21caf941cda588bc04365": {
+  "value": 1.4427,
+  "answer": "B",
+  "note": "tau = t / ln 8 = 1.44 min; exactly one option is right"
+ },
+ "5fc60508028950133eac8963": {
+  "value": 20,
+  "answer": "20",
+  "note": "f = mg = 20 N (< mu N = 30 N), with g = 10"
+ },
+ "6062ec84518e9535e120c422": {
+  "value": 5.7,
+  "answer": "A",
+  "note": "gamma = 3 alpha = 5.7 x 1e-5 per degC"
+ },
+ "6956d7bb23cb221e570d6013": {
+  "value": 4.0,
+  "answer": "B",
+  "note": "sin^2/2 = 2 sin cos so tan(theta) = 4"
+ },
+ "68e8734442c06737d6e56da4": {
+  "value": 0.8,
+  "answer": "A",
+  "note": "F = 90 N, mu = 0.8"
+ },
+ "6956d7e988d7701e5617bd3e": {
+  "value": 8.0,
+  "answer": "D",
+  "note": "A = 8 sqrt2 m (value shown is A/sqrt2 = 8)"
+ },
+ "68dea619d0cda73d07e93aee": {
+  "value": 4.0,
+  "answer": "4",
+  "note": "0.5 (pi/4) t^2 = 2 pi so t = 4 s"
+ },
+ "68dea7c2387eea3d0d95f9bb": {
+  "value": 8.0,
+  "answer": "8",
+  "note": "0.08 m = 8 cm"
+ },
+ "68dea715387eea3d0d95f790": {
+  "value": 3113.0,
+  "answer": "3113",
+  "note": "311.299 -> 311.3 (4 s.f.), 10A = 3113"
+ },
+ "695ee00b88d7701e561aabc5": {
+  "value": 2.0,
+  "answer": "none",
+  "note": "I = 2 I0, so Assertion is false; Reason ('always the sum') is false too. No option says both false."
+ },
+ "60ca4feb6420652745f55522": {
+  "value": 99.0,
+  "answer": "C",
+  "note": "99 N"
+ },
+ "68c9ae5afb6b2f16e2d43b1c": {
+  "value": 1.1,
+  "answer": "D",
+  "note": "3.1 eV - 2.0 eV = 1.1 V"
+ },
+ "68f21df0941cda588bc0470b": {
+  "value": 2.0,
+  "answer": "A",
+  "note": "p scales as sqrt(KE)"
+ },
+ "68c801bc1b1dbc16dc93bf2b": {
+  "value": 600.7717,
+  "answer": "A",
+  "note": "about 600 eV"
+ },
+ "63c7cce12981ed154ee92c94": {
+  "value": 2.2135,
+  "answer": "C",
+  "note": "C dV/dt = 2.2 microamp"
+ },
+ "636283dbe3770c24f866e6d6": {
+  "value": 4.0,
+  "answer": "B",
+  "note": "Q x64, area x16, ratio 4:1"
+ },
+ "68dea577d0cda73d07e9391c": {
+  "value": 14.0,
+  "answer": "14",
+  "note": "V_P = 22 V, V_S = 8 V, difference 14 V"
+ },
+ "68dea87d387eea3d0d95fbe3": {
+  "value": 5.0,
+  "answer": "A",
+  "note": "V = 5 V"
+ },
+ "68dea657387eea3d0d95f54a": {
+  "value": 5.0,
+  "answer": "5",
+  "note": "f_eq = 10 cm, 10 D total, 5 D each"
+ },
+ "68dea6e6387eea3d0d95f6f8": {
+  "value": 16.0,
+  "answer": "16",
+  "note": "x = 90 cm, ratio 16"
+ }
+}
