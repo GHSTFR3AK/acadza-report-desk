@@ -257,8 +257,6 @@ everything worked; that run is described in section 1 under "Live check on Gemin
 
 > now i want to improve the UI which wlll make this system more user friendly currently the UI looks too much connfusing do one thing make the Changes in HTML file and make it more clear , understanding and user friendly
 
-> _(add each further follow-up prompt here as it is given)_
-
 ## 3. Moments where the AI was wrong, and how each was caught
 
 All of these happened during the build. In each case the catch came from a check that was run, not from
@@ -305,8 +303,6 @@ re-reading the code.
    reading every cached live output side by side with the route code had decided. The fix (reply prompt v2) moves
    two decisions out of the model: the language comes from the reader, and whether a teacher is involved comes
    from the route. Lesson: the cheapest stage is the one the student sees, so it needs the tightest rules.
-
-_(Add your own: anything you disagreed with or changed after reviewing the output.)_
 
 ## 4. Design decisions log
 
