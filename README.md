@@ -5,7 +5,7 @@ could not safely decide alone. Built for the Acadza AI Intern build round (the o
 
 | | |
 |---|---|
-| Live console | `ADD-LIVE-URL` |
+| Live console | https://acadza-report-desk.netlify.app |
 | Results | [`results.json`](results.json): 44 reports, one row each |
 | Bonus | [`unreported_defects.json`](unreported_defects.json): 20 defects nobody reported |
 | Prompts and decisions | [`PROMPTS.md`](PROMPTS.md) |
